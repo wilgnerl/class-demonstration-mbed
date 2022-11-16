@@ -13,9 +13,18 @@ Autor: Wilgner Lopes
 ### Requisitos
 
 - Placa NUCLEO-F103
-- Motor de passo Nema 23 AK23
-- Driver do motor de passo
+- Motor de passo unipolar 4 fases (Ex: Nema 23 AK23 ou 28BY)
+- Driver do motor de passo (Exemplo: ULN2003 ou Transistor MOSFET)
 - JoyStick
+
+### Esquematico da ligação:
+---
+
+### Ligação entre os componentes
+<img src="./src/esquematico.png">
+
+### Pinagem na placa nucleo
+<img src="./src/pinagem-nucleo.png">
 
 ### Pratica
 
@@ -194,8 +203,3 @@ int main() {
 ```
 
 - Feito tudo isso, basta compilar o codigo e enviar para a placa NUCLEO.
-
-### Esquematico da ligação:
----
-
-<img src="./src/esquematico.png">
